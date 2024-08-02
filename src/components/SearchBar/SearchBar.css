@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: white;
+  border-bottom: 1px solid #00000033;
+}
+
+
+.header-logo svg {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.reddit-logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 25px;
+  background-color: #e5ebee;
+}
+
+.search-bar input:focus {
+  outline: 1px solid black;
+  outline-offset: 1px;
+  background-color: #fff;
+}
